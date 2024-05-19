@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>isbn_new_version</class>
+ <widget class="QDialog" name="isbn_new_version">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1147</width>
+    <height>660</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(40, 42, 54);</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="0" column="0">
+    <widget class="QWidget" name="widget" native="true">
+     <layout class="QGridLayout" name="gridLayout_6">
+      <item row="0" column="0">
+       <widget class="QWidget" name="widget_2" native="true">
+        <layout class="QGridLayout" name="gridLayout_5">
+         <item row="0" column="0">
+          <widget class="QFrame" name="frame">
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QGridLayout" name="gridLayout_4">
+            <item row="0" column="0">
+             <widget class="QWidget" name="widget_3" native="true">
+              <layout class="QGridLayout" name="gridLayout_3">
+               <item row="4" column="3">
+                <widget class="QPlainTextEdit" name="Log">
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(248, 248, 242);
+border : solid rgb(98, 114, 164);
+border-color: rgb(98, 114, 164);
+border-radius : 50px;
+font: 600 12pt &quot;Lucida Bright&quot;;
+padding : 60px;
+</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="1" rowspan="2" alignment="Qt::AlignHCenter">
+                <widget class="QLabel" name="label_5">
+                 <property name="styleSheet">
+                  <string notr="true">font: 700 18pt &quot;Consolas&quot;;
+background-color: RGB(40, 42, 54);
+color: rgb(248, 248, 242);</string>
+                 </property>
+                 <property name="text">
+                  <string>ISBN-13</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="4" column="1">
+                <widget class="QWidget" name="widget_4" native="true">
+                 <property name="styleSheet">
+                  <string notr="true">font: 600 12pt &quot;Lucida Bright&quot;;
+background-color: rgb(68, 71, 90);
+border-radius : 50px;
+</string>
+                 </property>
+                 <layout class="QGridLayout" name="gridLayout">
+                  <item row="9" column="1" alignment="Qt::AlignHCenter">
+                   <widget class="QLabel" name="label_2">
+                    <property name="styleSheet">
+                     <string notr="true">color: rgb(248, 248, 242);</string>
+                    </property>
+                    <property name="text">
+                     <string>Test Digit value :</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="12" column="1" alignment="Qt::AlignHCenter|Qt::AlignBottom">
+                   <widget class="QLabel" name="label_4">
+                    <property name="styleSheet">
+                     <string notr="true">color: rgb(248, 248, 242);</string>
+                    </property>
+                    <property name="text">
+                     <string>Validation : </string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="7" column="1" alignment="Qt::AlignHCenter">
+                   <widget class="QPushButton" name="input">
+                    <property name="styleSheet">
+                     <string notr="true">color: rgb(248, 248, 242);
+background-color: rgb(98, 104, 125);
+border-radius : 10px;
+width : 130px;
+height : 40px;</string>
+                    </property>
+                    <property name="text">
+                     <string>input value</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="14" column="1" alignment="Qt::AlignHCenter">
+                   <widget class="QPushButton" name="check">
+                    <property name="styleSheet">
+                     <string notr="true">color: rgb(248, 248, 242);
+background-color: rgb(98, 104, 125);
+border-radius : 10px;
+width : 130px;
+height : 30px;</string>
+                    </property>
+                    <property name="text">
+                     <string>Check</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="10" column="1" alignment="Qt::AlignHCenter">
+                   <widget class="QLineEdit" name="displaydigitvalue">
+                    <property name="styleSheet">
+                     <string notr="true">background-color: rgb(248, 248, 242);
+border-radius : 10px;</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="13" column="1" alignment="Qt::AlignHCenter">
+                   <widget class="QLineEdit" name="displayvalid">
+                    <property name="styleSheet">
+                     <string notr="true">background-color: rgb(248, 248, 242);
+border-radius : 10px;</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="1" column="1" alignment="Qt::AlignHCenter">
+                   <widget class="QFrame" name="frame_4">
+                    <property name="styleSheet">
+                     <string notr="true">border-radius : 10px;
+background-color: rgb(68, 71, 90);</string>
+                    </property>
+                    <property name="frameShape">
+                     <enum>QFrame::StyledPanel</enum>
+                    </property>
+                    <property name="frameShadow">
+                     <enum>QFrame::Raised</enum>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="2" column="1" alignment="Qt::AlignHCenter">
+                   <widget class="QLabel" name="label_3">
+                    <property name="styleSheet">
+                     <string notr="true">color: rgb(248, 248, 242);
+border-radius : 10px;</string>
+                    </property>
+                    <property name="text">
+                     <string>input ISBN 13 characters : </string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="5" column="1" alignment="Qt::AlignHCenter">
+                   <widget class="QLineEdit" name="inputbox">
+                    <property name="styleSheet">
+                     <string notr="true">background-color: rgb(248, 248, 242);
+border-radius : 10px;</string>
+                    </property>
+                    <property name="text">
+                     <string/>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="15" column="1" alignment="Qt::AlignHCenter">
+                   <widget class="QFrame" name="frame_7">
+                    <property name="styleSheet">
+                     <string notr="true">border-radius : 10px;
+background-color: rgb(68, 71, 90);</string>
+                    </property>
+                    <property name="frameShape">
+                     <enum>QFrame::StyledPanel</enum>
+                    </property>
+                    <property name="frameShadow">
+                     <enum>QFrame::Raised</enum>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+               <item row="4" column="2">
+                <widget class="QWidget" name="widget_5" native="true"/>
+               </item>
+               <item row="0" column="3" alignment="Qt::AlignHCenter">
+                <widget class="QLabel" name="label">
+                 <property name="styleSheet">
+                  <string notr="true">font: 700 18pt &quot;Consolas&quot;;
+background-color: RGB(40, 42, 54);
+color: rgb(248, 248, 242);</string>
+                 </property>
+                 <property name="text">
+                  <string>LOG</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+              <zorder>widget_5</zorder>
+              <zorder>widget_4</zorder>
+              <zorder>Log</zorder>
+              <zorder>label</zorder>
+              <zorder>label_5</zorder>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="QFrame" name="frame_2">
+              <property name="frameShape">
+               <enum>QFrame::StyledPanel</enum>
+              </property>
+              <property name="frameShadow">
+               <enum>QFrame::Raised</enum>
+              </property>
+              <layout class="QGridLayout" name="gridLayout_7">
+               <item row="1" column="2" rowspan="2">
+                <widget class="QFrame" name="frame_3">
+                 <property name="frameShape">
+                  <enum>QFrame::StyledPanel</enum>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Raised</enum>
+                 </property>
+                 <layout class="QGridLayout" name="gridLayout_10"/>
+                </widget>
+               </item>
+               <item row="1" column="0" rowspan="2">
+                <widget class="QFrame" name="frame_6">
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(68, 71, 90);
+border-radius : 30px;</string>
+                 </property>
+                 <property name="frameShape">
+                  <enum>QFrame::StyledPanel</enum>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Raised</enum>
+                 </property>
+                 <layout class="QGridLayout" name="gridLayout_9">
+                  <item row="1" column="0">
+                   <widget class="QPushButton" name="backtomenu">
+                    <property name="styleSheet">
+                     <string notr="true">background-color: rgb(248, 248, 242);
+color: rgb(68, 71, 90);
+font: 600 10pt &quot;Lucida Bright&quot;;
+border-radius : 15px;
+height : 30px;</string>
+                    </property>
+                    <property name="text">
+                     <string>Back To Menu</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="0" column="0">
+                   <widget class="QPushButton" name="cleardata">
+                    <property name="styleSheet">
+                     <string notr="true">background-color: rgb(248, 248, 242);
+color: rgb(68, 71, 90);
+font: 600 10pt &quot;Lucida Bright&quot;;
+border-radius : 15px;
+height : 30px;
+widht : 140px;</string>
+                    </property>
+                    <property name="text">
+                     <string>Clear Data</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+               <item row="1" column="1" rowspan="2">
+                <widget class="QFrame" name="frame_5">
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(68, 71, 90);
+font: 700 11pt &quot;Lucida Bright&quot;;
+border-radius : 30px;</string>
+                 </property>
+                 <property name="frameShape">
+                  <enum>QFrame::StyledPanel</enum>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Raised</enum>
+                 </property>
+                 <layout class="QGridLayout" name="gridLayout_11">
+                  <item row="2" column="0" alignment="Qt::AlignHCenter|Qt::AlignTop">
+                   <widget class="QLabel" name="label_8">
+                    <property name="styleSheet">
+                     <string notr="true">color: rgb(248, 248, 242);</string>
+                    </property>
+                    <property name="text">
+                     <string>you can use 'X' or 'x' in test digit for 10 value</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="0" column="0" alignment="Qt::AlignHCenter|Qt::AlignTop">
+                   <widget class="QLabel" name="label_6">
+                    <property name="styleSheet">
+                     <string notr="true">color: rgb(248, 248, 242);</string>
+                    </property>
+                    <property name="text">
+                     <string>Note : </string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="1" column="0" alignment="Qt::AlignHCenter">
+                   <widget class="QLabel" name="label_7">
+                    <property name="styleSheet">
+                     <string notr="true">color: rgb(248, 248, 242);</string>
+                    </property>
+                    <property name="text">
+                     <string>you can input '?' if test digit is not found.</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="3" column="0" alignment="Qt::AlignHCenter">
+                   <widget class="QLabel" name="label_9">
+                    <property name="styleSheet">
+                     <string notr="true">color: rgb(248, 248, 242);</string>
+                    </property>
+                    <property name="text">
+                     <string>input can't contains '-' or space </string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

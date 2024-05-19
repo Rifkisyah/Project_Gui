@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Welcome_User</class>
+ <widget class="QMainWindow" name="Welcome_User">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1190</width>
+    <height>708</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Welcome_User</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(40, 42, 54);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="3" column="0" alignment="Qt::AlignHCenter">
+     <widget class="QPushButton" name="NextButtonv10">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(248, 248, 242);
+font: 600 14pt &quot;Lucida Bright&quot;;
+background-color: rgb(98, 104, 125);
+border-radius : 5px 10px;
+width : 410px;
+height : 50px;
+</string>
+      </property>
+      <property name="text">
+       <string>Click Here To Isbn Version 10</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0" alignment="Qt::AlignHCenter|Qt::AlignTop">
+     <widget class="QLabel" name="label_2">
+      <property name="styleSheet">
+       <string notr="true">font: 600 20pt &quot;Lucida Bright&quot;;
+color: rgb(248, 248, 242);</string>
+      </property>
+      <property name="text">
+       <string>( INTERNATIONAL STANDARD BOOK NUMBER )</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0" alignment="Qt::AlignHCenter|Qt::AlignBottom">
+     <widget class="QLabel" name="label">
+      <property name="styleSheet">
+       <string notr="true">font: 600 28pt &quot;Lucida Bright&quot;;
+color: rgb(248, 248, 242);</string>
+      </property>
+      <property name="text">
+       <string>WELCOME TO ISBN INPUT VALIDATOR</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QWidget" name="widget" native="true"/>
+    </item>
+    <item row="4" column="0" alignment="Qt::AlignHCenter">
+     <widget class="QPushButton" name="NextButtonv13">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(248, 248, 242);
+font: 600 14pt &quot;Lucida Bright&quot;;
+background-color: rgb(98, 104, 125);
+border-radius : 5px 10px;
+width : 410px;
+height : 50px;</string>
+      </property>
+      <property name="text">
+       <string>Click Here To isbn Version 13</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1190</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
